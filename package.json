@@ -1,0 +1,42 @@
+{
+  "name": "auto-resize",
+  "version": "1.0.0",
+  "description": "根据给定设计尺寸，自动缩放屏幕",
+  "scripts": {
+    "build": "vite build",
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felix307253927/auto-resize.git"
+  },
+  "keywords": [
+    "auto-resize"
+  ],
+  "author": "felix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felix307253927/auto-resize/issues"
+  },
+  "homepage": "https://github.com/felix307253927/auto-resize#readme",
+  "main": "./lib/auto-resize.umd.js",
+  "module": "./lib/auto-resize.es.js",
+  "exports": {
+    ".": {
+      "import": "./lib/auto-resize.es.js",
+      "require": "./lib/auto-resize.umd.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./*"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "vite": "^4.3.1",
+    "vite-plugin-dts": "^2.3.0"
+  }
+}
