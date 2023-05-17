@@ -1,6 +1,6 @@
 {
-  "name": "auto-resize",
-  "version": "1.0.0",
+  "name": "auto-resize-screen",
+  "version": "1.0.2",
   "description": "根据给定设计尺寸，自动缩放屏幕",
   "scripts": {
     "build": "vite build",
@@ -19,12 +19,14 @@
     "url": "https://github.com/felix307253927/auto-resize/issues"
   },
   "homepage": "https://github.com/felix307253927/auto-resize#readme",
-  "main": "./lib/auto-resize.umd.js",
-  "module": "./lib/auto-resize.es.js",
+  "main": "./lib/auto-resize-screen.umd.js",
+  "module": "./lib/auto-resize-screen.es.js",
+  "types": "./lib/auto-resize-screen.d.ts",
   "exports": {
     ".": {
-      "import": "./lib/auto-resize.es.js",
-      "require": "./lib/auto-resize.umd.js"
+      "types": "./lib/auto-resize-screen.d.ts",
+      "import": "./lib/auto-resize-screen.es.js",
+      "require": "./lib/auto-resize-screen.umd.js"
     }
   },
   "typesVersions": {

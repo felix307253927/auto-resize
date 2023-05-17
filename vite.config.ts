@@ -3,7 +3,7 @@
  * @Email              : 307253927@qq.com
  * @Date               : 2023-04-25 17:52:00
  * @LastEditors        : Felix
- * @LastEditTime       : 2023-05-17 12:42:21
+ * @LastEditTime       : 2023-05-17 13:38:06
  */
 
 // @ts-nocheck
@@ -26,10 +26,10 @@ export default () => {
     },
     build: {
       lib: {
-        entry: "src/auto-resize.ts",
-        name: "auto-resize",
+        entry: "src/auto-resize-screen.ts",
+        name: "auto-resize-screen",
         // formats: ["umd"],
-        fileName: (format) => `auto-resize.${format}.js`,
+        fileName: (format) => `auto-resize-screen.${format}.js`,
       },
       outDir: "lib",
     },
