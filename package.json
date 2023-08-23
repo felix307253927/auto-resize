@@ -1,6 +1,6 @@
 {
   "name": "auto-resize-screen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "根据给定设计尺寸，自动缩放屏幕",
   "scripts": {
     "build": "vite build",
