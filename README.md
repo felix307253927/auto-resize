@@ -1,5 +1,6 @@
 # 根据给定设计大小自适应屏幕
-## npm install auto-resize-screen
+## install
+```js npm install auto-resize-screen```
 
 ## 示例
 ```javascript
