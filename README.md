@@ -6,7 +6,7 @@
 
 ## 示例
 ```javascript
-import { autoResize } from "auto-resize";
+import { autoResize } from "auto-resize-screen";
 
 window.onload = ()=>{
   const cancel = autoResize({width: 1920, height: 1080});
